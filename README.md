@@ -9,6 +9,6 @@ duplicates crowd the English pages out of the top hits (measured: a
 versus multilingual duplicates outranking the target pages).
 
 Pinned upstream commit: b328cc85bbe021e4d815941a77049eda633b1ec9
-Licence: MIT (LICENSE.md, upstream) — unchanged by this scoping.
+Licence: CC-BY-4.0 (LICENSE.md, upstream) — unchanged by this scoping.
 Rebuilt by the XERJ Corpus Hub program; regeneration is
 `git clone upstream && cp -r pages/common .` at a new commit.
