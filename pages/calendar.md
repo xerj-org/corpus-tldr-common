@@ -7,14 +7,14 @@
 
 `calendar`
 
-- Look [A]head, showing events for the next 30 days:
+- Look Ahead, showing events for the next 30 days:
 
 `calendar -A {{30}}`
 
-- Look [B]ack, showing events for the previous 7 days:
+- Look Back, showing events for the previous 7 days:
 
 `calendar -B {{7}}`
 
-- Show events from a custom calendar [f]ile:
+- Show events from a custom calendar file:
 
 `calendar -f {{path/to/file}}`

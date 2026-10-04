@@ -7,10 +7,10 @@
 
 `buzzphrase`
 
-- Print a phrase formatted as [i]mperative verb + past tense [v]erb + [a]djective + plural [N]oun:
+- Print a phrase formatted as imperative verb + past tense verb + adjective + plural Noun:
 
 `buzzphrase '{{{i} {v} {a} {N}}}'`
 
-- Print `k` phrases formatted as present participle [V]erb + [a]djective + singular [n]oun + [f]inal:
+- Print `k` phrases formatted as present participle Verb + adjective + singular noun + final:
 
 `buzzphrase {{k}} '{{{V} {a} {n} {f}}}'`

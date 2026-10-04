@@ -12,7 +12,7 @@
 
 `nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-M|--module]}} {{module_name}} --options`
 
-- Specify an [o]ption for a module:
+- Specify an option for a module:
 
 `nxc {{smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql}} {{[-M|--module]}} {{module_name}} -o {{OPTION_NAME}}={{option_value}}`
 

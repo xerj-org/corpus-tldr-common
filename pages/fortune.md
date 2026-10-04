@@ -7,19 +7,19 @@
 
 `fortune`
 
-- Print an [o]ffensive quotation:
+- Print an offensive quotation:
 
 `fortune -o`
 
-- Print a [l]ong quotation:
+- Print a long quotation:
 
 `fortune -l`
 
-- Print a [s]hort quotation:
+- Print a short quotation:
 
 `fortune -s`
 
-- List the available quotation database [f]iles:
+- List the available quotation database files:
 
 `fortune -f`
 

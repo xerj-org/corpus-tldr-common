@@ -23,7 +23,7 @@
 
 `shellcheck {{[-f|--format]}} {{tty|checkstyle|diff|gcc|json|json1|quiet}} {{path/to/script.sh}}`
 
-- Enable one or more [o]ptional checks:
+- Enable one or more optional checks:
 
 `shellcheck {{[-o|--enable]}} {{add-default-case,avoid-nullary-conditions,...}} {{path/to/script.sh}}`
 

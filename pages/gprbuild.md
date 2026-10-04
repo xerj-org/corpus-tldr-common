@@ -7,7 +7,7 @@
 
 `gprbuild`
 
-- Build a specific [P]roject file:
+- Build a specific Project file:
 
 `gprbuild -P {{project_name}}`
 

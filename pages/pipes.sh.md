@@ -4,22 +4,22 @@
 > See also: `cmatrix`, `cbonsai`, `asciiquarium`.
 > More information: <https://github.com/pipeseroni/pipes.sh#options>.
 
-- Change the pa[t]tern of the pipes:
+- Change the pattern of the pipes:
 
 `pipes.sh -t {{0..9}}`
 
-- Change the [c]olor of the pipes:
+- Change the color of the pipes:
 
 `pipes.sh -c {{0..7}}`
 
-- Change the [f]ramerate of the pipes:
+- Change the framerate of the pipes:
 
 `pipes.sh -f {{20..100}}`
 
-- Disable [C]olors:
+- Disable Colors:
 
 `pipes.sh -C`
 
-- Display [v]ersion:
+- Display version:
 
 `pipes.sh -v`

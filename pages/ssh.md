@@ -8,27 +8,27 @@
 
 `ssh {{username}}@{{remote_host}}`
 
-- Connect to a remote server with a specific [i]dentity (private key):
+- Connect to a remote server with a specific identity (private key):
 
 `ssh {{username}}@{{remote_host}} -i {{path/to/key_file}}`
 
-- Connect to a remote server with IP `10.0.0.1` and using a specific [p]ort (Note: `10.0.0.1` can be shortened to `10.1`):
+- Connect to a remote server with IP `10.0.0.1` and using a specific port (Note: `10.0.0.1` can be shortened to `10.1`):
 
 `ssh {{username}}@10.0.0.1 -p {{2222}}`
 
-- Run a command on a remote server with a [t]ty allocation allowing interaction with the remote command:
+- Run a command on a remote server with a tty allocation allowing interaction with the remote command:
 
 `ssh {{username}}@{{remote_host}} -t {{command}} {{command_arguments}}`
 
-- SSH tunneling: Use [D]ynamic port forwarding (SOCKS proxy on `localhost:1080`):
+- SSH tunneling: Use Dynamic port forwarding (SOCKS proxy on `localhost:1080`):
 
 `ssh {{username}}@{{remote_host}} -D {{1080}}`
 
-- SSH tunneling: Forward a specific port (`localhost:9999` to `example.org:80`) along with disabling pseudo-[T]ty allocation and executio[N] of remote commands:
+- SSH tunneling: Forward a specific port (`localhost:9999` to `example.org:80`) along with disabling pseudo-Tty allocation and executioN of remote commands:
 
 `ssh {{username}}@{{remote_host}} -L {{9999}}:{{example.org}}:{{80}} -N -T`
 
-- SSH [J]umping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
+- SSH Jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
 `ssh {{username}}@{{remote_host}} -J {{username}}@{{jump_host}}`
 

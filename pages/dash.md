@@ -7,7 +7,7 @@
 
 `dash`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `dash -c "{{echo 'dash is executed'}}"`
 
@@ -23,7 +23,7 @@
 
 `dash -x {{path/to/script.sh}}`
 
-- Execute a specific script and stop at the first [e]rror:
+- Execute a specific script and stop at the first error:
 
 `dash -e {{path/to/script.sh}}`
 

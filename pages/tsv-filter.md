@@ -7,11 +7,11 @@
 
 `tsv-filter -H --eq {{field_name}}:{{number}} {{path/to/tsv_file}}`
 
-- Print the lines where a specific column is [eq]ual/[n]on [e]qual/[l]ess [t]han/[l]ess than or [e]qual/[g]reater [t]han/[g]reater than or [e]qual to a given number:
+- Print the lines where a specific column is [eq]ual/non equal/less than/less than or equal/greater than/greater than or equal to a given number:
 
 `tsv-filter --{{eq|ne|lt|le|gt|ge}} {{column_number}}:{{number}} {{path/to/tsv_file}}`
 
-- Print the lines where a specific column is [eq]ual/[n]ot [e]qual/part of/not part of a given string:
+- Print the lines where a specific column is [eq]ual/not equal/part of/not part of a given string:
 
 `tsv-filter --str-{{eq|ne|in-fld|not-in-fld}} {{column_number}}:{{string}} {{path/to/tsv_file}}`
 
@@ -31,6 +31,6 @@
 
 `tsv-filter --or --eq {{column_number1}}:{{number}} --str-eq {{column_number2}}:{{string}} {{path/to/tsv_file}}`
 
-- Count matching lines, interpreting first line as a [H]eader:
+- Count matching lines, interpreting first line as a Header:
 
 `tsv-filter --count -H --eq {{field_name}}:{{number}} {{path/to/tsv_file}}`

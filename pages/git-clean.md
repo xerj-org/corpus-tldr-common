@@ -15,7 +15,7 @@
 
 `git clean {{[-f|--force]}}`
 
-- Delete untracked [d]irectories:
+- Delete untracked directories:
 
 `git clean {{[-f|--force]}} -d`
 
@@ -27,6 +27,6 @@
 
 `git clean {{[-f|--force]}} {{[-e|--exclude]}} '{{*.ext}}' {{[-e|--exclude]}} {{path/to/directory}}/`
 
-- Delete untracked files and e[x]cluded files (those listed in `.gitignore` and `.git/info/exclude`):
+- Delete untracked files and excluded files (those listed in `.gitignore` and `.git/info/exclude`):
 
 `git clean {{[-f|--force]}} -x`

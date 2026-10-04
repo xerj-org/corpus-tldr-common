@@ -7,11 +7,11 @@
 
 `llm logs list`
 
-- Show the [n] most recent entries:
+- Show the n most recent entries:
 
 `llm logs list {{[-n|--count]}} {{10}}`
 
-- Search logged prompts and responses for a [q]uery string:
+- Search logged prompts and responses for a query string:
 
 `llm logs list {{[-q|--query]}} {{query}}`
 

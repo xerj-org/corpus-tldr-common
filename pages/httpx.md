@@ -4,7 +4,7 @@
 > Note: Not to be confused with the unrelated Python's HTTPX which has the same command name.
 > More information: <https://docs.projectdiscovery.io/opensource/httpx/running>.
 
-- Run a probe against a [u]RL, host, IP Address, or subnet (CIDR notation) showing probe status:
+- Run a probe against a uRL, host, IP Address, or subnet (CIDR notation) showing probe status:
 
 `httpx -probe {{[-u|-target]}} {{url|host|ipaddress|subnet_with_cidr}}`
 
@@ -16,7 +16,7 @@
 
 `httpx {{[-rl|-rate-limit]}} {{150}} {{[-l|-list]}} {{path/to/newline_separated_hosts_list}} {{[-td|-tech-detect]}} {{[-rt|-response-time]}}`
 
-- Run a probe against a [u]RL showing its webpage title, CDN/WAF in use, and page content hash:
+- Run a probe against a uRL showing its webpage title, CDN/WAF in use, and page content hash:
 
 `httpx {{[-u|-target]}} {{url}} -title -cdn -hash {{sha256}}`
 

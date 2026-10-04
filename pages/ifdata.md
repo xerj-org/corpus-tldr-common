@@ -3,19 +3,19 @@
 > Display information about a network interface.
 > More information: <https://manned.org/ifdata>.
 
-- [p]rint the whole configuration of the specified interface:
+- print the whole configuration of the specified interface:
 
 `ifdata -p {{eth0}}`
 
-- Indicate the [e]xistence of the specified interface via the exit code:
+- Indicate the existence of the specified interface via the exit code:
 
 `ifdata -e {{eth0}}`
 
-- [p]rint the IPv4 [a]ddress and the [n]etmask of the specified interface:
+- print the IPv4 address and the netmask of the specified interface:
 
 `ifdata -pa -pn {{eth0}}`
 
-- [p]rint the [N]etwork address, the [b]roadcast address, and the [m]TU of the specified interface:
+- print the Network address, the broadcast address, and the mTU of the specified interface:
 
 `ifdata -pN -pb -pm {{eth0}}`
 

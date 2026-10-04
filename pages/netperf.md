@@ -8,11 +8,11 @@
 
 `netperf {{address}}`
 
-- Specify [p]ort:
+- Specify port:
 
 `netperf {{address}} -p {{port}}`
 
-- Specify the sampling [l]ength in seconds (default is 10):
+- Specify the sampling length in seconds (default is 10):
 
 `netperf {{address}} -l {{seconds}}`
 

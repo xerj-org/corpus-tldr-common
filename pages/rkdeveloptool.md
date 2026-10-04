@@ -5,15 +5,15 @@
 > Some subcommands may require to run as root.
 > More information: <https://github.com/rockchip-linux/rkdeveloptool>.
 
-- [l]ist all connected Rockchip-based flash [d]evices:
+- list all connected Rockchip-based flash devices:
 
 `rkdeveloptool ld`
 
-- Initialize the device by forcing it to [d]ownload and install the [b]ootloader from the specified file:
+- Initialize the device by forcing it to download and install the bootloader from the specified file:
 
 `rkdeveloptool db {{path/to/bootloader.bin}}`
 
-- [u]pdate the boot[l]oader software with a new one:
+- update the bootloader software with a new one:
 
 `rkdeveloptool ul {{path/to/bootloader.bin}}`
 
@@ -25,6 +25,6 @@
 
 `rkdeveloptool wlx {{partition_name}} {{path/to/image.img}}`
 
-- [r]eset/reboot the [d]evice, exit from the Maskrom/Bootrom mode to boot into the selected flash partition:
+- reset/reboot the device, exit from the Maskrom/Bootrom mode to boot into the selected flash partition:
 
 `rkdeveloptool rd`

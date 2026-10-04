@@ -7,7 +7,7 @@
 
 `kubectl wait --for condition=available deployment/{{deployment_name}}`
 
-- Wait for all pods with a certain [l]abel to be ready:
+- Wait for all pods with a certain label to be ready:
 
 `kubectl wait --for condition=ready {{[po|pods]}} {{[-l|--selector]}} {{label_key}}={{label_value}}`
 

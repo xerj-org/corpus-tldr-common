@@ -7,7 +7,7 @@
 
 `pydoc {{subject}}`
 
-- Start an HTTP server on an arbitrary unused port and open a [b]rowser to see the documentation:
+- Start an HTTP server on an arbitrary unused port and open a browser to see the documentation:
 
 `pydoc -b`
 

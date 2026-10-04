@@ -7,7 +7,7 @@
 
 `pytest {{path/to/test_file1.py path/to/test_file2.py ...}}`
 
-- Run tests with names matching a specific [k]eyword expression:
+- Run tests with names matching a specific keyword expression:
 
 `pytest -k {{expression}}`
 

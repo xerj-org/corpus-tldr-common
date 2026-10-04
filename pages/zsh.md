@@ -8,7 +8,7 @@
 
 `zsh`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `zsh -c "{{echo 'zsh is executed'}}"`
 

@@ -7,7 +7,7 @@
 
 `ctest`
 
-- Run all tests defined in the CMake build directory, executing 4 [j]obs at a time in parallel:
+- Run all tests defined in the CMake build directory, executing 4 jobs at a time in parallel:
 
 `ctest {{[-j|--parallel]}} 4`
 

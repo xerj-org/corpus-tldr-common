@@ -12,11 +12,11 @@
 
 `asciiquarium | lolcat`
 
-- Toggle [p]ause:
+- Toggle pause:
 
 `<p>`
 
-- [r]edraw aquarium and all entities:
+- redraw aquarium and all entities:
 
 `<r>`
 

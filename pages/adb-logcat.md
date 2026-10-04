@@ -7,19 +7,19 @@
 
 `adb logcat`
 
-- Display lines that match a `reg[e]x`:
+- Display lines that match a `regex`:
 
 `adb logcat -e {{regex}}`
 
-- Display logs for a tag in a specific mode ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), filtering other tags:
+- Display logs for a tag in a specific mode (Verbose, Debug, Info, Warning, Error, Fatal, Silent), filtering other tags:
 
 `adb logcat {{tag}}:{{mode}} *:S`
 
-- Display logs for React Native applications in [V]erbose mode [S]ilencing other tags:
+- Display logs for React Native applications in Verbose mode Silencing other tags:
 
 `adb logcat ReactNative:V ReactNativeJS:V *:S`
 
-- Display logs for all tags with priority level [W]arning and higher:
+- Display logs for all tags with priority level Warning and higher:
 
 `adb logcat *:W`
 

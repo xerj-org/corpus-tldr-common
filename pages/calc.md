@@ -11,15 +11,15 @@
 
 `calc '{{85 * (36 / 4)}}'`
 
-- Don't format the output (for use with [p]ipes):
+- Don't format the output (for use with pipes):
 
 `calc -p '{{4/3 * pi() * 5^3}}'`
 
-- Perform a calculation and then switch to [i]nteractive mode:
+- Perform a calculation and then switch to interactive mode:
 
 `calc -i '{{sqrt(2)}}'`
 
-- Start `calc` in a specific permission [m]ode (0 to 7, defaults to 7):
+- Start `calc` in a specific permission mode (0 to 7, defaults to 7):
 
 `calc -m {{mode}}`
 

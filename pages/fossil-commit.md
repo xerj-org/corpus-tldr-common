@@ -7,7 +7,7 @@
 
 `fossil {{[ci|commit]}}`
 
-- Create a new version containing all the changes in the current checkout, using the specified [m]essage:
+- Create a new version containing all the changes in the current checkout, using the specified message:
 
 `fossil {{[ci|commit]}} {{[-m|--comment]}} "{{comment}}"`
 

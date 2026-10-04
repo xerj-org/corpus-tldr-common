@@ -7,7 +7,7 @@
 
 `memray run {{path/to/file}}.py`
 
-- Run a [m]odule and track memory usage:
+- Run a module and track memory usage:
 
 `memray run -m {{module_name}}`
 

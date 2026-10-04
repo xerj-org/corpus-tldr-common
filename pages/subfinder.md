@@ -20,6 +20,6 @@
 
 `subfinder -all {{[-d|-domain]}} {{example.com}}`
 
-- Use a given comma-separated list of [r]esolvers:
+- Use a given comma-separated list of resolvers:
 
 `subfinder -r {{8.8.8.8,1.1.1.1,...}} {{[-d|-domain]}} {{example.com}}`

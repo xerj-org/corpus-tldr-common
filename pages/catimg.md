@@ -8,14 +8,14 @@
 
 `catimg {{path/to/file}}`
 
-- Double the [r]esolution of an image:
+- Double the resolution of an image:
 
 `catimg -r 2 {{path/to/file}}`
 
-- Disable 24-bit color for better [t]erminal support:
+- Disable 24-bit color for better terminal support:
 
 `catimg -t {{path/to/file}}`
 
-- Specify a custom [w]idth or [H]eight:
+- Specify a custom width or Height:
 
 `catimg {{-w|-H}} {{40}} {{path/to/file}}`

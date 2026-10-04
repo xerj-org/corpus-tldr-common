@@ -7,18 +7,18 @@
 
 `cluster {{input.gv}}`
 
-- Specify a target number of [C]lusters (approximate) to generate (0 by default, meaning a number that approximately optimizes the modularity):
+- Specify a target number of Clusters (approximate) to generate (0 by default, meaning a number that approximately optimizes the modularity):
 
 `cluster -C {{5}} {{input.gv}}`
 
-- Use a different [c]lustering method (0: modularity clustering, 1: modularity quality):
+- Use a different clustering method (0: modularity clustering, 1: modularity quality):
 
 `cluster -c {{0|1}} {{input.gv}}`
 
-- Save the [o]utput to a file:
+- Save the output to a file:
 
 `cluster -o {{output.gv}} {{input.gv}}`
 
-- Enable [v]erbose mode:
+- Enable verbose mode:
 
 `cluster -v {{input.gv}}`

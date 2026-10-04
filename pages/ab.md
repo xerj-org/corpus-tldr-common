@@ -15,11 +15,11 @@
 
 `ab -n 100 -T {{application/json}} -p {{path/to/file.json}} {{url}}`
 
-- Use HTTP [k]eep-Alive, i.e. perform multiple requests within one HTTP session:
+- Use HTTP keep-Alive, i.e. perform multiple requests within one HTTP session:
 
 `ab -k {{url}}`
 
-- Set the maximum number of seconds ([t]imeout) to spend for benchmarking (30 by default):
+- Set the maximum number of seconds (timeout) to spend for benchmarking (30 by default):
 
 `ab -t {{60}} {{url}}`
 

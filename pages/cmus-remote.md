@@ -4,7 +4,7 @@
 > See also: `playerctl`.
 > More information: <https://manned.org/cmus-remote>.
 
-- [Q]uery player status information:
+- Query player status information:
 
 `cmus-remote -Q`
 

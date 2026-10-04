@@ -7,10 +7,10 @@
 
 `gnatmake {{source_file1.adb source_file2.adb ...}}`
 
-- Set a custom [o]utput executable name:
+- Set a custom output executable name:
 
 `gnatmake -o {{executable_name}} {{source_file.adb}}`
 
-- [f]orce recompilation:
+- force recompilation:
 
 `gnatmake -f {{source_file.adb}}`

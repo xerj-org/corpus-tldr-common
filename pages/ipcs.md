@@ -3,30 +3,30 @@
 > Show information about the usage of XSI IPC facilities: shared memory segments, message queues, and semaphore arrays.
 > More information: <https://manned.org/ipcs.1p>.
 
-- Show information about [a]ll the IPC:
+- Show information about all the IPC:
 
 `ipcs -a`
 
-- Show information about active shared [m]emory segments, message [q]ueues or [s]emaphore sets:
+- Show information about active shared memory segments, message queues or semaphore sets:
 
 `ipcs {{-m|-q|-s}}`
 
-- Show information on maximum allowable size in [b]ytes:
+- Show information on maximum allowable size in bytes:
 
 `ipcs -b`
 
-- Show [c]reator's user name and group name for all IPC facilities:
+- Show creator's user name and group name for all IPC facilities:
 
 `ipcs -c`
 
-- Show the [p]ID of the last operators for all IPC facilities:
+- Show the pID of the last operators for all IPC facilities:
 
 `ipcs -p`
 
-- Show access [t]imes for all IPC facilities:
+- Show access times for all IPC facilities:
 
 `ipcs -t`
 
-- Show [o]utstanding usage for active message queues, and shared memory segments:
+- Show outstanding usage for active message queues, and shared memory segments:
 
 `ipcs -o`

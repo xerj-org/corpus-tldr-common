@@ -4,19 +4,19 @@
 > See also: `tar`.
 > More information: <https://manned.org/ar>.
 
-- E[x]tract all members from an archive:
+- Extract all members from an archive:
 
 `ar x {{path/to/file.a}}`
 
-- Lis[t] contents in a specific archive:
+- List contents in a specific archive:
 
 `ar t {{path/to/file.ar}}`
 
-- [r]eplace or add specific files to an archive:
+- replace or add specific files to an archive:
 
 `ar r {{path/to/file.deb}} {{path/to/debian-binary path/to/control.tar.gz path/to/data.tar.xz ...}}`
 
-- In[s]ert an object file index (equivalent to using `ranlib`):
+- Insert an object file index (equivalent to using `ranlib`):
 
 `ar s {{path/to/file.a}}`
 

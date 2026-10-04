@@ -8,7 +8,7 @@
 
 `go test`
 
-- [v]erbosely test the package in the current directory:
+- verbosely test the package in the current directory:
 
 `go test -v`
 

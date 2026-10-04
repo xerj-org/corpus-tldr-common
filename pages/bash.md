@@ -12,7 +12,7 @@
 
 `bash --norc`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `bash -c "{{echo 'bash is executed'}}"`
 
@@ -20,11 +20,11 @@
 
 `bash {{path/to/script.sh}}`
 
-- E[x]ecute a specific script, printing each command before executing it:
+- Execute a specific script, printing each command before executing it:
 
 `bash -x {{path/to/script.sh}}`
 
-- Execute a specific script and stop at the first [e]rror:
+- Execute a specific script and stop at the first error:
 
 `bash -e {{path/to/script.sh}}`
 
@@ -32,6 +32,6 @@
 
 `{{echo "echo 'bash is executed'"}} | bash`
 
-- Start a [r]estricted shell session:
+- Start a restricted shell session:
 
 `bash {{[-r|--restricted]}}`

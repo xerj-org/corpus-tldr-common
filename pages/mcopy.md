@@ -17,7 +17,7 @@
 
 `mcopy {{A}}: {{path/to/target_directory}}`
 
-- Copy a file into a DOS disk [i]mage file instead of a drive letter (`::` represents the root directory of the DOS disk):
+- Copy a file into a DOS disk image file instead of a drive letter (`::` represents the root directory of the DOS disk):
 
 `mcopy -i {{path/to/image.img}} {{path/to/source_file}} ::/{{path/to/target_file}}`
 
@@ -25,10 +25,10 @@
 
 `mcopy -i {{path/to/image.img}} ::/{{path/to/source_file}} .`
 
-- Copy a directory recur[s]ively to an MS-DOS disk:
+- Copy a directory recursively to an MS-DOS disk:
 
 `mcopy -s {{path/to/source_directory}} {{A}}:/{{path/to/target_directory}}`
 
-- Copy a file and [p]reserve attributes:
+- Copy a file and preserve attributes:
 
 `mcopy -p {{path/to/source_file}} {{A}}:/{{path/to/target_file}}`

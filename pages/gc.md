@@ -7,15 +7,15 @@
 
 `gc {{path/to/file.dot}}`
 
-- Count only [n]odes:
+- Count only nodes:
 
 `gc -n {{path/to/file.dot}}`
 
-- Count only [e]dges:
+- Count only edges:
 
 `gc -e {{path/to/file.dot}}`
 
-- Count [c]onnected components:
+- Count connected components:
 
 `gc -c {{path/to/file.dot}}`
 

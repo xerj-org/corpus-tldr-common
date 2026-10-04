@@ -12,19 +12,19 @@
 
 `echo "{{text}}" | speak-ng`
 
-- Speak the contents of a [f]ile:
+- Speak the contents of a file:
 
 `speak-ng -f {{path/to/file}}`
 
-- Speak using a specific [v]oice:
+- Speak using a specific voice:
 
 `speak-ng -v {{voice}} "{{text}}"`
 
-- Speak at a specific [s]peed (default is 175) and [p]itch (default is 50):
+- Speak at a specific speed (default is 175) and pitch (default is 50):
 
 `speak-ng -s {{speed}} -p {{pitch}} "{{text}}"`
 
-- Output the audio to a [w]AV file instead of speaking it directly:
+- Output the audio to a wAV file instead of speaking it directly:
 
 `speak-ng -w {{path/to/output.wav}} "{{text}}"`
 

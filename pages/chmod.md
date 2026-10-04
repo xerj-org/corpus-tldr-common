@@ -3,27 +3,27 @@
 > Change the access permissions of a file or directory.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
-- Give the [u]ser who owns a file the right to e[x]ecute it:
+- Give the user who owns a file the right to execute it:
 
 `chmod u+x {{path/to/file}}`
 
-- Give the [u]ser rights to [r]ead and [w]rite to a file/directory:
+- Give the user rights to read and write to a file/directory:
 
 `chmod u+rw {{path/to/file_or_directory}}`
 
-- Remove e[x]ecutable rights from the [g]roup and [o]thers:
+- Remove executable rights from the group and others:
 
 `chmod g-x,o-x {{path/to/file}}`
 
-- Give [a]ll users rights to [r]ead and e[x]ecute:
+- Give all users rights to read and execute:
 
 `chmod a+rx {{path/to/file}}`
 
-- Give [o]thers (not in the file owner's group) the same rights as the [g]roup:
+- Give others (not in the file owner's group) the same rights as the group:
 
 `chmod o=g {{path/to/file}}`
 
-- Remove all rights from [o]thers:
+- Remove all rights from others:
 
 `chmod o= {{path/to/file}}`
 
@@ -31,6 +31,6 @@
 
 `chmod {{644}} {{path/to/file}}`
 
-- Recursively give [a]ll users [r]ead permissions to files. Also give e[X]ecute permissions to files that have at least one execution permission and to all sub-directories:
+- Recursively give all users read permissions to files. Also give eXecute permissions to files that have at least one execution permission and to all sub-directories:
 
 `chmod {{[-R|--recursive]}} a+rX {{path/to/directory}}`

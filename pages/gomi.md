@@ -12,7 +12,7 @@
 
 `gomi {{[-b|--restore]}}`
 
-- Remove files that have been in the trashcan longer than the specified time ([d]ay, [w]eek, [m]onth, [y]ear):
+- Remove files that have been in the trashcan longer than the specified time (day, week, month, year):
 
 `gomi --prune {{1d|1w|1m|1y|...}}`
 

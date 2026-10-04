@@ -11,6 +11,6 @@
 
 `chronic -e {{command}} {{option1 option2 ...}}`
 
-- Enable [v]erbose mode:
+- Enable verbose mode:
 
 `chronic -v {{command}} {{option1 option2 ...}}`

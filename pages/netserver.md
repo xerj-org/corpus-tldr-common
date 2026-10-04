@@ -12,7 +12,7 @@
 
 `netserver -D`
 
-- Specify [p]ort:
+- Specify port:
 
 `netserver -p {{port}}`
 

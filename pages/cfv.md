@@ -3,26 +3,26 @@
 > Command-line File Verify, a utility to test and create checksum files.
 > More information: <https://manned.org/cfv>.
 
-- [T]est checksum files in current directory:
+- Test checksum files in current directory:
 
 `cfv -T`
 
-- [T]est [v]erbosely, re[n]ame bad, and show [u]nverified files using a checksum [f]ile:
+- Test verbosely, rename bad, and show unverified files using a checksum file:
 
 `cfv -Tvnu -f {{path/to/file}}`
 
-- [C]reate a checksum file of a specific [t]ype for the selected files:
+- Create a checksum file of a specific type for the selected files:
 
 `cfv -C -t "{{sfv|sha256|md5|...}}" {{file1 file2 ...}}`
 
-- [C]reate separate checksum files for each [r]ecursively selected directory:
+- Create separate checksum files for each recursively selected directory:
 
 `cfv -Cr`
 
-- [C]reate a single `sha256` type [f]ile for all [rr]ecursively selected files:
+- Create a single `sha256` type file for all [rr]ecursively selected files:
 
 `cfv -C -f {{sums.sha256}} -rr`
 
-- [C]reate a `g[z]ipped` `.sfv` file [v]erbosely, following `sym[l]inks` and using `path/to/directory` as base [p]ath:
+- Create a `gzipped` `.sfv` file verbosely, following `symlinks` and using `path/to/directory` as base path:
 
 `cfv -Czvl -p {{path/to/directory}}`

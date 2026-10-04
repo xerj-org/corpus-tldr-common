@@ -31,6 +31,6 @@
 
 `v repl`
 
-- Format a file and [w]rite to it:
+- Format a file and write to it:
 
 `v fmt -w {{path/to/file.v}}`

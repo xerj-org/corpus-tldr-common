@@ -15,7 +15,7 @@
 
 `gau < {{path/to/domains.txt}} --threads {{4}}`
 
-- Write [o]utput results to a file:
+- Write output results to a file:
 
 `gau {{example.com}} --o {{path/to/found_urls.txt}}`
 

@@ -12,7 +12,7 @@
 
 `tcsh -f`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `tcsh -c "{{echo 'tcsh is executed'}}"`
 

@@ -19,14 +19,14 @@
 
 `redis-benchmark -n {{100000}} script load "{{redis.call('set', 'foo', 'bar')}}"`
 
-- Run benchmark by using 100000 [r]andom keys:
+- Run benchmark by using 100000 random keys:
 
 `redis-benchmark -t {{set}} -r {{100000}}`
 
-- Run benchmark by using a [P]ipelining of 16 commands:
+- Run benchmark by using a Pipelining of 16 commands:
 
 `redis-benchmark -n {{1000000}} -t {{set,get}} -P {{16}}`
 
-- Run benchmark [q]uietly and only show query per seconds result:
+- Run benchmark quietly and only show query per seconds result:
 
 `redis-benchmark -q`

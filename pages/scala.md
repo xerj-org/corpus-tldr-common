@@ -7,7 +7,7 @@
 
 `scala`
 
-- Start the interpreter with a dependency in the [c]lass[p]ath:
+- Start the interpreter with a dependency in the classpath:
 
 `scala {{[-cp|--extra-jars]}} {{filename.jar}} {{command}}`
 

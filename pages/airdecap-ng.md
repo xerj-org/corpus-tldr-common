@@ -8,18 +8,18 @@
 
 `airdecap-ng -b {{ap_mac}} {{path/to/capture.cap}}`
 
-- Decrypt a [w]EP encrypted capture file using the key in hex format:
+- Decrypt a wEP encrypted capture file using the key in hex format:
 
 `airdecap-ng -w {{hex_key}} {{path/to/capture.cap}}`
 
-- Decrypt a WPA/WPA2 encrypted capture file using the access point's [e]ssid and [p]assword:
+- Decrypt a WPA/WPA2 encrypted capture file using the access point's essid and password:
 
 `airdecap-ng -e {{extended_ssid}} -p {{password}} {{path/to/capture.cap}}`
 
-- Decrypt a WPA/WPA2 encrypted capture file preserving the headers using the access point's [e]ssid and [p]assword:
+- Decrypt a WPA/WPA2 encrypted capture file preserving the headers using the access point's essid and password:
 
 `airdecap-ng -l -e {{extended_ssid}} -p {{password}} {{path/to/capture.cap}}`
 
-- Decrypt a WPA/WPA2 encrypted capture file using the access point's [e]ssid and [p]assword and use its MAC address to filter:
+- Decrypt a WPA/WPA2 encrypted capture file using the access point's essid and password and use its MAC address to filter:
 
 `airdecap-ng -b {{ap_mac}} -e {{extended_ssid}} -p {{password}} {{path/to/capture.cap}}`

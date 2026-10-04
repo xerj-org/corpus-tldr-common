@@ -16,7 +16,7 @@
 
 `xzgrep {{[-n|--line-number]}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Print 3 lines of Context around, Before, or After each match:
 
 `xzgrep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 

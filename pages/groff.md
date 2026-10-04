@@ -15,7 +15,7 @@
 
 `groff -man -T html {{path/to/manpage.1}} > {{path/to/manpage.html}}`
 
-- Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:
+- Typeset a roff file containing tables and pictures, using the [me] macro set, to PDF, saving the output:
 
 `groff {{-t}} {{-p}} -{{me}} -T {{pdf}} {{path/to/input.me}} > {{path/to/output.pdf}}`
 

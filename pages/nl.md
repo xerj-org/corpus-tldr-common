@@ -11,26 +11,26 @@
 
 `{{command}} | nl -`
 
-- Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines:
+- Number all body lines including blank lines or do not number body lines:
 
 `nl -b {{a|n}} {{path/to/file}}`
 
-- Number only the [b]ody lines that match a basic `regex` (BRE) [p]attern:
+- Number only the body lines that match a basic `regex` (BRE) pattern:
 
 `nl -b p'FooBar[0-9]' {{path/to/file}}`
 
-- Use a specific [i]ncrement for line numbering:
+- Use a specific increment for line numbering:
 
 `nl -i {{increment}} {{path/to/file}}`
 
-- Specify the line numbering format to [r]ight or [l]eft justified, keeping leading [z]eros or [n]ot:
+- Specify the line numbering format to right or left justified, keeping leading zeros or not:
 
 `nl -n {{rz|ln|rn}}`
 
-- Specify the line numbering's [w]idth (6 by default):
+- Specify the line numbering's width (6 by default):
 
 `nl -w {{col_width}} {{path/to/file}}`
 
-- Use a specific string to [s]eparate the line numbers from the lines (`TAB` by default):
+- Use a specific string to separate the line numbers from the lines (`TAB` by default):
 
 `nl -s {{separator}} {{path/to/file}}`

@@ -8,11 +8,11 @@
 
 `pngcheck {{path/to/image.png}}`
 
-- Print information for an image with [c]olorized output:
+- Print information for an image with colorized output:
 
 `pngcheck -c {{path/to/image.png}}`
 
-- Print [v]erbose information for an image:
+- Print verbose information for an image:
 
 `pngcheck -cvt {{path/to/image.png}}`
 
@@ -20,10 +20,10 @@
 
 `cat {{path/to/image.png}} | pngcheck -cvt`
 
-- [s]earch for PNGs within a specific file and display information about them:
+- search for PNGs within a specific file and display information about them:
 
 `pngcheck -s {{path/to/image.png}}`
 
-- Search for PNGs within another file and e[x]tract them:
+- Search for PNGs within another file and extract them:
 
 `pngcheck -x {{path/to/image.png}}`

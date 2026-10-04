@@ -7,22 +7,22 @@
 
 `pgrep {{process_name}}`
 
-- Print the process name in addition to the PID ([l]ong output):
+- Print the process name in addition to the PID (long output):
 
 `pgrep -l {{process_name}}`
 
-- Match processes against the [f]ull argument list instead of just the process name:
+- Match processes against the full argument list instead of just the process name:
 
 `pgrep -f "{{process_name}} {{parameter}}"`
 
-- Print the PID together with the [f]ull argument [l]ist for each match:
+- Print the PID together with the full argument list for each match:
 
 `pgrep -fl "{{process_name}}"`
 
-- Search for processes run by a specific [u]ser (effective UID):
+- Search for processes run by a specific user (effective UID):
 
 `pgrep -u {{username}} {{process_name}}`
 
-- Select only the [n]ewest (most recently started) matching process:
+- Select only the newest (most recently started) matching process:
 
 `pgrep -n {{process_name}}`

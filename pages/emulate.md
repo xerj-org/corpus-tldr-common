@@ -12,11 +12,11 @@
 
 `emulate bash`
 
-- Evaluate a [c]ommand within temporary emulation:
+- Evaluate a command within temporary emulation:
 
 `emulate ksh -c "{{echo hi}}"`
 
-- Emulate the default Zsh, [R]esetting options when possible:
+- Emulate the default Zsh, Resetting options when possible:
 
 `emulate zsh -R`
 

@@ -7,19 +7,19 @@
 
 `nnn`
 
-- Start in [d]etailed mode:
+- Start in detailed mode:
 
 `nnn -d`
 
-- Show [H]idden files:
+- Show Hidden files:
 
 `nnn -H`
 
-- Open an existing [b]ookmark (defined in the `$NNN_BMS` environment variable):
+- Open an existing bookmark (defined in the `$NNN_BMS` environment variable):
 
 `nnn -b {{bookmark_name}}`
 
-- Sort files on [a]pparent disk usage / [d]isk usage / [e]xtension / [r]everse / [s]ize / [t]ime / [v]ersion:
+- Sort files on apparent disk usage / disk usage / extension / reverse / size / time / version:
 
 `nnn -T {{a|d|e|r|s|t|v}}`
 

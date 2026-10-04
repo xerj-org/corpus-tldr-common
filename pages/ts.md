@@ -11,10 +11,10 @@
 
 `{{command}} | ts "{{%b %d %H:%M:%.S}}"`
 
-- Add [i]ncremental timestamps with microsecond precision, starting from zero:
+- Add incremental timestamps with microsecond precision, starting from zero:
 
 `{{command}} | ts -i "{{%H:%M:%.S}}"`
 
-- Convert existing timestamps in a text file (e.g. a log file) into [r]elative format:
+- Convert existing timestamps in a text file (e.g. a log file) into relative format:
 
 `cat {{path/to/file}} | ts -r`

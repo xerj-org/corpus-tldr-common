@@ -7,7 +7,7 @@
 
 `llm models list`
 
-- List models matching a [q]uery string:
+- List models matching a query string:
 
 `llm models list {{[-q|--query]}} {{gpt}}`
 

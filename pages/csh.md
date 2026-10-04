@@ -8,11 +8,11 @@
 
 `csh`
 
-- Start an interactive shell session [f]aster without loading startup configs:
+- Start an interactive shell session faster without loading startup configs:
 
 `csh -f`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `csh -c "{{echo 'csh is executed'}}"`
 

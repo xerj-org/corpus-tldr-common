@@ -15,19 +15,19 @@
 
 `ls {{[-F|--classify]}}`
 
-- List all files in [l]ong format (permissions, ownership, size, and modification date):
+- List all files in long format (permissions, ownership, size, and modification date):
 
 `ls {{[-la|-l --all]}}`
 
-- List files in [l]ong format with size displayed using human-readable units (KiB, MiB, GiB):
+- List files in long format with size displayed using human-readable units (KiB, MiB, GiB):
 
 `ls {{[-lh|-l --human-readable]}}`
 
-- List files in [l]ong format, sorted by [S]ize (descending) recursively:
+- List files in long format, sorted by Size (descending) recursively:
 
 `ls {{[-lSR|-lS --recursive]}}`
 
-- List files in [l]ong format, sorted by [t]ime the file was modified and in reverse order (oldest first):
+- List files in long format, sorted by time the file was modified and in reverse order (oldest first):
 
 `ls {{[-ltr|-lt --reverse]}}`
 

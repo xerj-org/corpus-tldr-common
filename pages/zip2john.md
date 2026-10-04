@@ -8,7 +8,7 @@
 
 `zip2john {{path/to/file.zip}}`
 
-- Extract the password hash using [o]nly a specific compressed file:
+- Extract the password hash using only a specific compressed file:
 
 `zip2john -o {{path/to/compressed_file}} {{path/to/file.zip}}`
 

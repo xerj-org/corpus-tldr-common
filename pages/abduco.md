@@ -7,11 +7,11 @@
 
 `abduco`
 
-- [A]ttach to a session, creating it if it doesn't exist:
+- Attach to a session, creating it if it doesn't exist:
 
 `abduco -A {{name}} {{bash}}`
 
-- [A]ttach to a session with `dvtm`, creating it if it doesn't exist:
+- Attach to a session with `dvtm`, creating it if it doesn't exist:
 
 `abduco -A {{name}}`
 
@@ -19,6 +19,6 @@
 
 `<Ctrl \>`
 
-- [A]ttach to a session in [r]ead-only mode:
+- Attach to a session in read-only mode:
 
 `abduco -Ar {{name}}`

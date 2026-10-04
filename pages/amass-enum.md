@@ -3,15 +3,15 @@
 > Find subdomains of a domain.
 > More information: <https://github.com/owasp-amass/amass/blob/master/doc/user_guide.md#the-enum-subcommand>.
 
-- Find (passively) subdomains of a [d]omain:
+- Find (passively) subdomains of a domain:
 
 `amass enum -d {{domain_name}}`
 
-- Find subdomains of a [d]omain and actively verify them attempting to resolve the found subdomains:
+- Find subdomains of a domain and actively verify them attempting to resolve the found subdomains:
 
 `amass enum -active -d {{domain_name}} -p {{80,443,8080}}`
 
-- Do a brute force search for sub[d]omains:
+- Do a brute force search for subdomains:
 
 `amass enum -brute -d {{domain_name}}`
 

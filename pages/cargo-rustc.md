@@ -21,7 +21,7 @@
 
 `cargo rustc -- {{[-C|--codegen]}} opt-level={{1|2|3}}`
 
-- Compile with [s]ize optimizations (`z` also turns off loop vectorization):
+- Compile with size optimizations (`z` also turns off loop vectorization):
 
 `cargo rustc -- {{[-C|--codegen]}} opt-level={{s|z}}`
 

@@ -16,7 +16,7 @@
 
 `grep {{[-rI|--recursive --binary-files=without-match]}} "{{search_pattern}}" {{path/to/directory}}`
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Print 3 lines of Context around, Before, or After each match:
 
 `grep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 

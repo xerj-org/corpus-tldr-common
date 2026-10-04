@@ -11,15 +11,15 @@
 
 `adb -s {{serial_number}} install {{path/to/file}}.apk`
 
-- [r]einstall an existing app, keeping its data:
+- reinstall an existing app, keeping its data:
 
 `adb install -r {{path/to/file}}.apk`
 
-- Push an Android application allowing version code [d]owngrade (debuggable packages only):
+- Push an Android application allowing version code downgrade (debuggable packages only):
 
 `adb install -d {{path/to/file}}.apk`
 
-- [g]rant all permissions listed in the app manifest:
+- grant all permissions listed in the app manifest:
 
 `adb install -g {{path/to/file}}.apk`
 

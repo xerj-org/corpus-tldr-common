@@ -20,7 +20,7 @@
 
 `{{ls *.sql}} | entr {{psql -f}} /_`
 
-- [c]lear the screen and run a query after the SQL script is updated:
+- clear the screen and run a query after the SQL script is updated:
 
 `{{echo my.sql}} | entr -cp {{psql -f}} /_`
 
@@ -28,6 +28,6 @@
 
 `{{find src/}} | entr -s '{{make | sed 10q}}'`
 
-- Launch and auto-[r]eload a Node.js server:
+- Launch and auto-reload a Node.js server:
 
 `{{ls *.js}} | entr -r {{node app.js}}`

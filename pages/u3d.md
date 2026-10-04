@@ -19,6 +19,6 @@
 
 `u3d install latest_stable`
 
-- Download and install Unity version and editor [p]ackages:
+- Download and install Unity version and editor packages:
 
 `u3d install {{2021.2.0f1}} -p {{Unity,iOS,Android}}`

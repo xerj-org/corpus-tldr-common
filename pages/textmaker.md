@@ -11,6 +11,6 @@
 
 `textmaker {{path/to/file.tmdx}}`
 
-- Launch TextMaker with [N]o open documents:
+- Launch TextMaker with No open documents:
 
 `textmaker -N`

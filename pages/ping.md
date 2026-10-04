@@ -28,7 +28,7 @@
 
 `ping -O {{host}}`
 
-- Ping a host with specific [c]ount of pings, per-packet time to [W]ait for a response, and total [w]ait time limit of the entire ping run:
+- Ping a host with specific count of pings, per-packet time to Wait for a response, and total wait time limit of the entire ping run:
 
 `ping -c {{count}} -W {{seconds}} -w {{seconds}} {{host}}`
 

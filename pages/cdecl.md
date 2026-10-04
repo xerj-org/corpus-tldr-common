@@ -3,7 +3,7 @@
 > Compose and decode C and C++ type declarations.
 > More information: <https://manned.org/cdecl>.
 
-- Compose English phrase into C declaration, and create [c]ompilable output (include `;` and `{}`):
+- Compose English phrase into C declaration, and create compilable output (include `;` and `{}`):
 
 `cdecl -c {{phrase}}`
 
@@ -15,6 +15,6 @@
 
 `cdecl cast {{variable_name}} to {{type}}`
 
-- Run in [i]nteractive mode:
+- Run in interactive mode:
 
 `cdecl -i`

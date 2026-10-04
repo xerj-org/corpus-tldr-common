@@ -9,7 +9,7 @@
 
 `tmux`
 
-- Start a new named [s]ession:
+- Start a new named session:
 
 `tmux {{[new|new-session]}} -s {{name}}`
 
@@ -17,7 +17,7 @@
 
 `tmux {{[ls|list-sessions]}}`
 
-- Attach to a named session ([t]arget can be omitted to attach to the most recently used session):
+- Attach to a named session (target can be omitted to attach to the most recently used session):
 
 `tmux {{[a|attach]}} -t {{name}}`
 
@@ -33,6 +33,6 @@
 
 `<Ctrl b><w>`
 
-- Kill a session by [t]arget name:
+- Kill a session by target name:
 
 `tmux kill-session -t {{name}}`

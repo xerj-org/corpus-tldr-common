@@ -12,7 +12,7 @@
 
 `cat {{path/to/file.csv}} | tidy-viewer`
 
-- Pretty-print a file with a custom [s]eparator (e.g. a pipe):
+- Pretty-print a file with a custom separator (e.g. a pipe):
 
 `tidy-viewer {{[-s|--delimiter]}} '|' {{path/to/file.psv}}`
 

@@ -12,23 +12,23 @@
 
 `bindkey "{{^k}}" {{kill-line}}`
 
-- Bind a hotkey to a specific key [s]equence:
+- Bind a hotkey to a specific key sequence:
 
 `bindkey -s '^o' 'cd ..\n'`
 
-- [l]ist keymaps:
+- list keymaps:
 
 `bindkey -l`
 
-- List all hotkeys in a key[M]ap:
+- List all hotkeys in a keyMap:
 
 `bindkey -M {{main}}`
 
-- Enable [v]i mode:
+- Enable vi mode:
 
 `bindkey -v`
 
-- Enable [e]macs mode (default mode):
+- Enable emacs mode (default mode):
 
 `bindkey -e`
 

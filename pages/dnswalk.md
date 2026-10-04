@@ -8,19 +8,19 @@
 
 `dnswalk {{domain}}.`
 
-- Process sub-domains [r]ecursively:
+- Process sub-domains recursively:
 
 `dnswalk -r {{domain}}.`
 
-- Only perform a `dnswalk` if the zone has been [m]odified since the last run:
+- Only perform a `dnswalk` if the zone has been modified since the last run:
 
 `dnswalk -m {{domain}}.`
 
-- Print [d]ebugging and status information to `stderr` instead of `stdout`:
+- Print debugging and status information to `stderr` instead of `stdout`:
 
 `dnswalk -d {{domain}}.`
 
-- Suppress the check for [i]nvalid characters in the domain name:
+- Suppress the check for invalid characters in the domain name:
 
 `dnswalk -i {{domain}}.`
 
@@ -28,10 +28,10 @@
 
 `dnswalk -a {{domain}}.`
 
-- Enable "[F]ascist checking" to compare the A record PTR name with the forward name and report mismatches:
+- Enable "Fascist checking" to compare the A record PTR name with the forward name and report mismatches:
 
 `dnswalk -F {{domain}}.`
 
-- Enable "[l]ame delegation" to test whether the listed host is returning authoritative answers:
+- Enable "lame delegation" to test whether the listed host is returning authoritative answers:
 
 `dnswalk -l {{domain}}.`

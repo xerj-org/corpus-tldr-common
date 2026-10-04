@@ -8,7 +8,7 @@
 
 `ksh`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `ksh -c "{{echo 'ksh is executed'}}"`
 
@@ -20,6 +20,6 @@
 
 `ksh -n {{path/to/script.ksh}}`
 
-- E[x]ecute a specific script, printing each command in the script before executing it:
+- Execute a specific script, printing each command in the script before executing it:
 
 `ksh -x {{path/to/script.ksh}}`

@@ -9,15 +9,15 @@
 
 `test "{{$MY_VAR}}" = "{{/bin/zsh}}"`
 
-- Test if a given variable is empty ([z]ero length):
+- Test if a given variable is empty (zero length):
 
 `test -z "{{$GIT_BRANCH}}"`
 
-- Test if a [f]ile exists:
+- Test if a file exists:
 
 `test -f "{{path/to/file}}"`
 
-- Test if a [d]irectory does not exist:
+- Test if a directory does not exist:
 
 `test ! -d "{{path/to/directory}}"`
 

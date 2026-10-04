@@ -8,6 +8,6 @@
 
 `git var {{GIT_AUTHOR_IDENT|GIT_COMMITTER_IDENT|GIT_EDITOR|GIT_PAGER}}`
 
-- [l]ist all Git logical variables:
+- list all Git logical variables:
 
 `git var -l`

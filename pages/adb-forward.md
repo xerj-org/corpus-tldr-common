@@ -7,7 +7,7 @@
 
 `adb forward tcp:{{local_port}} tcp:{{remote_port}}`
 
-- Forward a TCP port to a specific emulator or device (by device ID / [s]erial number):
+- Forward a TCP port to a specific emulator or device (by device ID / serial number):
 
 `adb -s {{device_id}} forward tcp:{{local_port}} tcp:{{remote_port}}`
 

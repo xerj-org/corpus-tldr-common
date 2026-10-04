@@ -8,22 +8,22 @@
 
 `unhash {{command}}`
 
-- Unhash non-suffix [a]liases:
+- Unhash non-suffix aliases:
 
 `unhash -a {{alias}}`
 
-- Unhash [s]uffix aliases:
+- Unhash suffix aliases:
 
 `unhash -s {{alias}}`
 
-- Unhash shell [f]unctions:
+- Unhash shell functions:
 
 `unhash -f {{function}}`
 
-- Unhash [d]irectories:
+- Unhash directories:
 
 `unhash -d {{directory}}`
 
-- Unhash every function that [m]atches a pattern:
+- Unhash every function that matches a pattern:
 
 `unhash -f -m "{{pattern}}"`

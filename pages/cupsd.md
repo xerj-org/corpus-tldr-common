@@ -7,15 +7,15 @@
 
 `cupsd`
 
-- Start `cupsd` on the [f]oreground:
+- Start `cupsd` on the foreground:
 
 `cupsd -f`
 
-- [l]aunch `cupsd` on-demand (commonly used by `launchd` or `systemd`):
+- launch `cupsd` on-demand (commonly used by `launchd` or `systemd`):
 
 `cupsd -l`
 
-- Start `cupsd` using the specified `cupsd.conf` [c]onfiguration file:
+- Start `cupsd` using the specified `cupsd.conf` configuration file:
 
 `cupsd -c {{path/to/cupsd.conf}}`
 
@@ -23,14 +23,14 @@
 
 `cupsd -s {{path/to/cups-files.conf}}`
 
-- [t]est the `cupsd.conf` [c]onfiguration file for errors:
+- test the `cupsd.conf` configuration file for errors:
 
 `cupsd -t -c {{path/to/cupsd.conf}}`
 
-- [t]est the `cups-files.conf` configuration file for errors:
+- test the `cups-files.conf` configuration file for errors:
 
 `cupsd -t -s {{path/to/cups-files.conf}}`
 
-- Display [h]elp:
+- Display help:
 
 `cupsd -h`

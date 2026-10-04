@@ -7,7 +7,7 @@
 
 `zgrep {{pattern}} {{path/to/compressed_file}}`
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Print 3 lines of Context around, Before, or After each match:
 
 `zgrep {{--context|--before-context|--after-context}} 3 {{pattern}} {{path/to/compressed_file}}`
 

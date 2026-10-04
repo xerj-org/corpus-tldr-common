@@ -11,7 +11,7 @@
 
 `bzgrep {{[-r|--recursive]}} "{{search_pattern}}" {{path/to/tar_file}}`
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Print 3 lines of Context around, Before, or After each match:
 
 `bzgrep {{--context|--before-context|--after-context}} 3 "{{search_pattern}}" {{path/to/file}}`
 

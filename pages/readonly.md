@@ -11,6 +11,6 @@
 
 `readonly {{existing_variable}}`
 
-- [p]rint the names and values of all read-only variables to `stdout`:
+- print the names and values of all read-only variables to `stdout`:
 
 `readonly -p`

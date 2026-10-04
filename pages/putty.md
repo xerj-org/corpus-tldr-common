@@ -8,7 +8,7 @@
 
 `putty -ssh {{username}}@{{hostname_or_ip}}`
 
-- Connect to a remote host on a specific [P]ort:
+- Connect to a remote host on a specific Port:
 
 `putty -ssh {{username}}@{{hostname_or_ip}} -P {{port}}`
 
@@ -24,11 +24,11 @@
 
 `putty -telnet {{hostname_or_ip}}`
 
-- Enable [X]11 forwarding:
+- Enable X11 forwarding:
 
 `putty -ssh {{username}}@{{hostname_or_ip}} -X`
 
-- Set up [L]ocal port forwarding:
+- Set up Local port forwarding:
 
 `putty -ssh {{username}}@{{hostname_or_ip}} -L {{local_port}}:{{destination_host}}:{{destination_port}}`
 

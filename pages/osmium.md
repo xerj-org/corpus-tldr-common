@@ -15,7 +15,7 @@
 
 `osmium cat {{path/to/input.osm.pbf}} {{[-o|--output]}} {{path/to/output.osm}}`
 
-- Extract a geographic region by the given [b]ounding box:
+- Extract a geographic region by the given bounding box:
 
 `osmium extract {{[-b|--bbox]}} {{min_longitude}},{{min_latitude}},{{max_longitude}},{{max_latitude}} {{path/to/input.pbf}} {{[-o|--output]}} {{path/to/output.pbf}}`
 

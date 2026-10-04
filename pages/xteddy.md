@@ -15,7 +15,7 @@
 
 `xteddy -float`
 
-- Display another image [F]ile instead of the cuddly teddy bear:
+- Display another image File instead of the cuddly teddy bear:
 
 `xteddy -F {{path/to/image}}`
 

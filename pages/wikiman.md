@@ -8,18 +8,18 @@
 
 `wikiman {{search_term}}`
 
-- Search for a topic in a specific [s]ource:
+- Search for a topic in a specific source:
 
 `wikiman -s {{source}} {{search_term}}`
 
-- Search for a topic in two or more specific [s]ources:
+- Search for a topic in two or more specific sources:
 
 `wikiman -s {{source1,source2,...}} {{search_term}}`
 
-- List existing [S]ources:
+- List existing Sources:
 
 `wikiman -S`
 
-- Display [h]elp:
+- Display help:
 
 `wikiman -h`

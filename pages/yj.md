@@ -3,26 +3,26 @@
 > Convert between YAML, TOML, JSON, and HCL, preserving map order.
 > More information: <https://github.com/sclevine/yj>.
 
-- Convert [y]AML to JSON (default) from `stdin` and write the result to `stdout`:
+- Convert yAML to JSON (default) from `stdin` and write the result to `stdout`:
 
 `yj < {{file.yml}} -y`
 
-- Convert [t]OML to [y]AML:
+- Convert tOML to yAML:
 
 `yj < {{file.toml}} -ty`
 
-- Convert [j]SON to [t]OML with [i]ndentation:
+- Convert jSON to tOML with indentation:
 
 `yj < {{file.json}} -jti`
 
-- Convert H[c]L to [j]SON:
+- Convert HcL to jSON:
 
 `yj < {{file.hcl}} -cj`
 
-- Convert [y]AML to H[c]L ignoring inf/[n]aN conversion:
+- Convert yAML to HcL ignoring inf/naN conversion:
 
 `yj < {{file.yml}} -ycn`
 
-- Display [v]ersion:
+- Display version:
 
 `yj -v`

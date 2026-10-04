@@ -32,6 +32,6 @@
 
 `dig +trace {{example.com}}`
 
-- Query a DNS server over a non-standard [p]ort using the TCP protocol:
+- Query a DNS server over a non-standard port using the TCP protocol:
 
 `dig +tcp -p {{port}} @{{dns_server_ip}} {{example.com}}`

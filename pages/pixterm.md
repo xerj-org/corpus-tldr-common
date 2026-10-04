@@ -12,10 +12,10 @@
 
 `pixterm -s 2 {{path/to/file}}`
 
-- Specify a custom aspect ratio using a specific number of [t]erminal [r]ows and [c]olumns:
+- Specify a custom aspect ratio using a specific number of terminal rows and columns:
 
 `pixterm -tr {{24}} -tc {{80}} {{path/to/file}}`
 
-- Filter the output with a [m]atte background color and character [d]ithering:
+- Filter the output with a matte background color and character dithering:
 
 `pixterm -m {{000000}} -d 2 {{path/to/file}}`

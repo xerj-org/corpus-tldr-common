@@ -12,7 +12,7 @@
 
 `qmmp {{[-t|--play-pause]}}`
 
-- Seek [f]or[w]ar[d]s or [b]ack[w]ar[d]s a specific amount of time in seconds:
+- Seek forwards or backwards a specific amount of time in seconds:
 
 `qmmp --seek-{{fwd|bwd}} {{time_in_seconds}}`
 

@@ -11,6 +11,6 @@
 
 `planmaker {{path/to/file.pmdx}}`
 
-- Launch PlanMaker with [N]o open documents:
+- Launch PlanMaker with No open documents:
 
 `planmaker -N`

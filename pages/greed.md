@@ -12,7 +12,7 @@
 
 `<?>`
 
-- Toggle move [p]reviews:
+- Toggle move previews:
 
 `<p>`
 
@@ -20,7 +20,7 @@
 
 `<q><y>`
 
-- Print [s]cores:
+- Print scores:
 
 `greed -s`
 

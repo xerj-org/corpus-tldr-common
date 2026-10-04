@@ -7,7 +7,7 @@
 
 `serve`
 
-- Start an HTTP server on a specific [p]ort to serve a specific directory:
+- Start an HTTP server on a specific port to serve a specific directory:
 
 `serve -p {{port}} {{path/to/directory}}`
 

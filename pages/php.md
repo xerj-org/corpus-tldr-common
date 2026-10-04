@@ -7,11 +7,11 @@
 
 `php {{path/to/file}}`
 
-- Check syntax on (i.e. [l]int) a PHP script:
+- Check syntax on (i.e. lint) a PHP script:
 
 `php {{[-l|--syntax-check]}} {{path/to/file}}`
 
-- Run PHP inter[a]ctively:
+- Run PHP interactively:
 
 `php {{[-a|--interactive]}}`
 

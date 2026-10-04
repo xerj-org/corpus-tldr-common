@@ -8,7 +8,7 @@
 
 `elvish`
 
-- Execute specific [c]ommands:
+- Execute specific commands:
 
 `elvish -c "{{echo 'elvish is executed'}}"`
 

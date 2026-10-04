@@ -23,10 +23,10 @@
 
 `objdump {{[-d|--disassemble]}} {{path/to/binary}} --visualize-jumps={{color|extended-color}} --disassembler-color={{color|extended-color}}`
 
-- Display the symbol [t]able:
+- Display the symbol table:
 
 `objdump {{[-t|--syms]}} {{path/to/binary}}`
 
-- Display a complete binary hex dump of all [s]ections:
+- Display a complete binary hex dump of all sections:
 
 `objdump {{[-s|--full-contents]}} {{path/to/binary}}`

@@ -4,15 +4,15 @@
 > Auto-reconnects to keep port forwarding tunnels up. Accepts all SSH flags.
 > More information: <https://manned.org/autossh>.
 
-- Start an SSH session, restarting when the [M]onitoring port fails to return data:
+- Start an SSH session, restarting when the Monitoring port fails to return data:
 
 `autossh -M {{monitor_port}} "{{ssh_command}}"`
 
-- Forward a [L]ocal port to a remote one, restarting when necessary:
+- Forward a Local port to a remote one, restarting when necessary:
 
 `autossh -M {{monitor_port}} -L {{local_port}}:localhost:{{remote_port}} {{user}}@{{host}}`
 
-- Fork `autossh` into the background before executing SSH and do [N]ot open a remote shell:
+- Fork `autossh` into the background before executing SSH and do Not open a remote shell:
 
 `autossh -f -M {{monitor_port}} -N "{{ssh_command}}"`
 

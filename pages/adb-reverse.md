@@ -11,7 +11,7 @@
 
 `adb reverse tcp:{{remote_port}} tcp:{{local_port}}`
 
-- Reverse a TCP port from a specific emulator or device (by device ID / [s]erial number) to localhost:
+- Reverse a TCP port from a specific emulator or device (by device ID / serial number) to localhost:
 
 `adb -s {{device_id}} reverse tcp:{{remote_port}} tcp:{{local_port}}`
 

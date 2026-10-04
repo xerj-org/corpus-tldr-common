@@ -23,7 +23,7 @@
 
 `rmlint {{[-D|--merge-directories]}} {{path/to/directory}}`
 
-- Mark files at lower path [d]epth as originals, on tie choose shorter [l]ength:
+- Mark files at lower path depth as originals, on tie choose shorter length:
 
 `rmlint {{[-S|--rank-by]}} {{dl}} {{path/to/directory}}`
 

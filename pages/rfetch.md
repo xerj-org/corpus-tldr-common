@@ -7,26 +7,26 @@
 
 `rfetch`
 
-- Display system [a]rchitecture:
+- Display system architecture:
 
 `rfetch -a`
 
-- Display system up[t]ime:
+- Display system uptime:
 
 `rfetch -t`
 
-- Display system [k]ernel:
+- Display system kernel:
 
 `rfetch -k`
 
-- Display system [c]PU:
+- Display system cPU:
 
 `rfetch -c`
 
-- Display Linux [D]istro:
+- Display Linux Distro:
 
 `rfetch -D`
 
-- View [d]esktop environment:
+- View desktop environment:
 
 `rfetch -d`

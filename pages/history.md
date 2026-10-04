@@ -15,15 +15,15 @@
 
 `history -{{d|f|i|E}}`
 
-- [c]lear the commands history list:
+- clear the commands history list:
 
 `history -c`
 
-- Over[w]rite history file with history of current Bash shell (often combined with `history -c` to purge history):
+- Overwrite history file with history of current Bash shell (often combined with `history -c` to purge history):
 
 `history -w`
 
-- [d]elete the history entry at the specified offset:
+- delete the history entry at the specified offset:
 
 `history -d {{offset}}`
 

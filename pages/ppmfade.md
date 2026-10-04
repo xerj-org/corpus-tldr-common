@@ -3,7 +3,7 @@
 > Generate a transition between two PPM images.
 > More information: <https://netpbm.sourceforge.net/doc/ppmfade.html>.
 
-- Generate a transition between two PPM images ([f]irst and [l]ast) using the specified effect:
+- Generate a transition between two PPM images (first and last) using the specified effect:
 
 `ppmfade -f {{path/to/image1.ppm}} -l {{path/to/image2.ppm}} -{{mix|spread|shift|relief|oil|...}}`
 

@@ -8,22 +8,22 @@
 
 `sudo badblocks {{/dev/sdX}}`
 
-- Search an unmounted disk for bad blocks with a [n]on-destructive read-write test:
+- Search an unmounted disk for bad blocks with a non-destructive read-write test:
 
 `sudo badblocks -n {{/dev/sdX}}`
 
-- Search an unmounted disk for bad blocks with a destructive [w]rite test:
+- Search an unmounted disk for bad blocks with a destructive write test:
 
 `sudo badblocks -w {{/dev/sdX}}`
 
-- Use the destructive [w]rite test and [s]how [v]erbose progress:
+- Use the destructive write test and show verbose progress:
 
 `sudo badblocks -svw {{/dev/sdX}}`
 
-- In destructive mode, [o]utput found blocks to a file:
+- In destructive mode, output found blocks to a file:
 
 `sudo badblocks -o {{path/to/file}} -w {{/dev/sdX}}`
 
-- Use the destructive mode with improved speed using 4K [b]lock size and 64K block [c]ount:
+- Use the destructive mode with improved speed using 4K block size and 64K block count:
 
 `sudo badblocks -w -b {{4096}} -c {{65536}} {{/dev/sdX}}`

@@ -8,7 +8,7 @@
 
 `{{command}} | sed 's/apple/mango/g'`
 
-- Execute a specific script [f]ile and print the result to `stdout`:
+- Execute a specific script file and print the result to `stdout`:
 
 `{{command}} | sed -f {{path/to/script.sed}}`
 

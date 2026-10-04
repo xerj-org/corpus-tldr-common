@@ -5,23 +5,23 @@
 > See also: `bindkey`.
 > More information: <https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html#Zle-Builtins>.
 
-- [l]ist user-defined widgets:
+- list user-defined widgets:
 
 `zle -l`
 
-- [l]ist [a]ll widgets, including built-in ones:
+- list all widgets, including built-in ones:
 
 `zle -la`
 
-- Create a [N]ew user-defined widget (function defaults to same name as widget):
+- Create a New user-defined widget (function defaults to same name as widget):
 
 `zle -N {{widget_name}} {{optional_shell_function_name}}`
 
-- [D]elete a widget:
+- Delete a widget:
 
 `zle -D {{widget_name}}`
 
-- Create an [A]lias of a widget:
+- Create an Alias of a widget:
 
 `zle -A {{original_widget}} {{alias_name}}`
 

@@ -11,15 +11,15 @@
 
 `gvmap -D {{graph.gv}}`
 
-- Include graph edges in the [o]utput map:
+- Include graph edges in the output map:
 
 `gvmap -e {{graph.gv}} -o {{output.xdot}}`
 
-- Specify a [c]olor scheme (1: pastel, 2: blue-yellow, 3: white-red, etc.):
+- Specify a color scheme (1: pastel, 2: blue-yellow, 3: white-red, etc.):
 
 `gvmap -c {{1|2|3|...}} {{graph.gv}} -o {{output.xdot}}`
 
-- Set the maximum number of [C]lusters (by default 0, meaning there is no limit):
+- Set the maximum number of Clusters (by default 0, meaning there is no limit):
 
 `gvmap -C {{10}} {{graph.gv}} -o {{output.xdot}}`
 

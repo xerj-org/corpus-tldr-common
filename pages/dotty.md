@@ -8,14 +8,14 @@
 
 `dotty {{path/to/graph.gv}}`
 
-- Start Dotty with the [V]ersion information displayed:
+- Start Dotty with the Version information displayed:
 
 `dotty -V`
 
-- Set the [l]ayout [m]ode to synchronous or asynchronous:
+- Set the layout mode to synchronous or asynchronous:
 
 `dotty -lm {{sync|async}} {{path/to/graph.gv}}`
 
-- Set the m[e]ssage verbosity [l]evel (`0` for minimal, `1` for detailed):
+- Set the message verbosity level (`0` for minimal, `1` for detailed):
 
 `dotty -el {{0|1}} {{path/to/graph.gv}}`

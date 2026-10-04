@@ -5,7 +5,7 @@
 > See also: `tarsnap-keygen`.
 > More information: <https://www.tarsnap.com/man-tarsnap.1.html>.
 
-- [c]reate a backup archive of one or more files or directories, specifying the cryptographic key and the cache directory:
+- create a backup archive of one or more files or directories, specifying the cryptographic key and the cache directory:
 
 `tarsnap -c --keyfile {{path/to/key_file}} --cachedir {{path/to/cache_directory}} -f {{archive_name}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
@@ -17,11 +17,11 @@
 
 `tarsnap --list-archives --keyfile {{path/to/key_file}}`
 
-- [d]elete a specific archive:
+- delete a specific archive:
 
 `tarsnap -d --keyfile {{path/to/key_file}} --cachedir {{path/to/cache_directory}} -f {{archive_name}}`
 
-- Lis[t] the contents of a specific archive in [v]erbose mode:
+- List the contents of a specific archive in verbose mode:
 
 `tarsnap -tv --keyfile {{path/to/key_file}} -f {{archive_name}}`
 

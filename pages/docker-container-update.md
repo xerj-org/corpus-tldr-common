@@ -16,7 +16,7 @@
 
 `docker {{[update|container update]}} --cpus {{count}} {{container_name}}`
 
-- Update the memory limit in [M]egabytes for a specific container:
+- Update the memory limit in Megabytes for a specific container:
 
 `docker {{[update|container update]}} {{[-m|--memory]}} {{limit}}M {{container_name}}`
 
@@ -24,6 +24,6 @@
 
 `docker {{[update|container update]}} --pids-limit {{count}} {{container_name}}`
 
-- Update the amount of memory in [M]egabytes a specific container can swap to disk (use `-1` for unlimited):
+- Update the amount of memory in Megabytes a specific container can swap to disk (use `-1` for unlimited):
 
 `docker {{[update|container update]}} --memory-swap {{limit}}M {{container_name}}`

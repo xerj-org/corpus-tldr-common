@@ -8,7 +8,7 @@
 
 `cancel`
 
-- Cancel the jobs of the default printer owned by a specific [u]ser:
+- Cancel the jobs of the default printer owned by a specific user:
 
 `cancel -u {{username}}`
 
@@ -20,14 +20,14 @@
 
 `cancel {{printer}}-{{job_id}}`
 
-- Cancel [a]ll jobs of all printers:
+- Cancel all jobs of all printers:
 
 `cancel -a`
 
-- Cancel [a]ll jobs of a specific printer:
+- Cancel all jobs of a specific printer:
 
 `cancel -a {{printer}}`
 
-- Cancel the current job of a specific [h]ost server and then delete ([x]) job data files:
+- Cancel the current job of a specific host server and then delete (x) job data files:
 
 `cancel -h {{server}} -x`

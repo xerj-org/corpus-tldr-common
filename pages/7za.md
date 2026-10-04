@@ -4,7 +4,7 @@
 > Similar to `7z` except that it supports fewer file types but is cross-platform.
 > More information: <https://manned.org/7za>.
 
-- [a]rchive a file or directory:
+- archive a file or directory:
 
 `7za a {{path/to/archive.7z}} {{path/to/file_or_directory}}`
 
@@ -12,23 +12,23 @@
 
 `7za a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
 
-- E[x]tract an archive preserving the original directory structure:
+- Extract an archive preserving the original directory structure:
 
 `7za x {{path/to/archive.7z}}`
 
-- E[x]tract an archive to a specific directory:
+- Extract an archive to a specific directory:
 
 `7za x {{path/to/archive.7z}} -o{{path/to/output}}`
 
-- E[x]tract an archive to `stdout`:
+- Extract an archive to `stdout`:
 
 `7za x {{path/to/archive.7z}} -so`
 
-- [a]rchive using a specific archive type:
+- archive using a specific archive type:
 
 `7za a -t{{7z|bzip2|gzip|lzip|tar|...}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
 
-- [l]ist the contents of an archive:
+- list the contents of an archive:
 
 `7za l {{path/to/archive.7z}}`
 

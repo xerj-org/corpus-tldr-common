@@ -27,6 +27,6 @@
 
 `{{echo '{"key1":"value1", "key2":"value2"}'}} | mlr --ijson --ojson --jvstack cat`
 
-- Filter lines of a compressed CSV file treating numbers as [S]trings:
+- Filter lines of a compressed CSV file treating numbers as Strings:
 
 `mlr --prepipe 'gunzip' {{[-c|--csv]}} filter {{[-S|--infer-none]}} '${{field_name}} =~ "{{regex}}"' {{example.csv.gz}}`

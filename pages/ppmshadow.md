@@ -7,7 +7,7 @@
 
 `ppmshadow {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
 
-- [b]lur the image by the specified number of pixels:
+- blur the image by the specified number of pixels:
 
 `ppmshadow -b {{n}} {{path/to/input_file.ppm}} > {{path/to/output_file.ppm}}`
 

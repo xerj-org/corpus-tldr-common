@@ -8,15 +8,15 @@
 
 `gofumpt -w {{path/to/directory}}`
 
-- [l]ist files whose formatting differs from `gofumpt`:
+- list files whose formatting differs from `gofumpt`:
 
 `gofumpt -l {{path/to/directory}}`
 
-- Report all [e]rrors:
+- Report all errors:
 
 `gofumpt -e {{path/to/directory}}`
 
-- Display [d]iffs:
+- Display diffs:
 
 `gofumpt -d {{path/to/directory}}`
 
@@ -24,7 +24,7 @@
 
 `gofumpt -extra {{path/to/directory}}`
 
-- Display [d]iffs with stricter rules:
+- Display diffs with stricter rules:
 
 `gofumpt -extra -d {{path/to/directory}}`
 

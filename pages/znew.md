@@ -15,6 +15,6 @@
 
 `znew -9 {{path/to/file1.Z}}`
 
-- Recompress a file, [K]eeping the `.Z` file if it is smaller than the `gzip` file:
+- Recompress a file, Keeping the `.Z` file if it is smaller than the `gzip` file:
 
 `znew -K {{path/to/file1.Z}}`

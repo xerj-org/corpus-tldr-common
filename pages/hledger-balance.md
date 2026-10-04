@@ -28,7 +28,7 @@
 
 `hledger {{[bal|balance]}} {{[-HQ|--historical --quarterly]}} date:{{2024}} type:{{AL}} {{[-ES|--empty --sort-amount]}} {{[-3|--depth 3]}}`
 
-- Show investment assets' market [V]alue in base currency at the end of each quarter:
+- Show investment assets' market Value in base currency at the end of each quarter:
 
 `hledger {{[bal|balance]}} {{[-HVQ|--historical --market --quarterly]}} {{assets:investments}}`
 

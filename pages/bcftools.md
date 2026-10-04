@@ -3,15 +3,15 @@
 > Tools for manipulating VCF and BCF files.
 > More information: <https://samtools.github.io/bcftools/bcftools.html>.
 
-- View BCF file and convert to [v]CF on `stdout`:
+- View BCF file and convert to vCF on `stdout`:
 
 `bcftools view {{path/to/input.bcf}} {{[-O|--output-type]}} v`
 
-- Sort a VCF file variants by chromosome and position, output to a [b]CF file, and index the sorted output:
+- Sort a VCF file variants by chromosome and position, output to a bCF file, and index the sorted output:
 
 `bcftools sort {{path/to/input.vcf.gz}} {{[-O|--output-type]}} b {{[-o|--output]}} {{path/to/sorted.bcf}} {{[-W|--write-index]}}`
 
-- Concatenate sorted VCF files that share the same samples to [z]ipped VCF on `stdout`:
+- Concatenate sorted VCF files that share the same samples to zipped VCF on `stdout`:
 
 `bcftools concat {{path/to/chr1.vcf.gz path/to/chr2.vcf.gz ...}} {{[-O|--output-type]}} z`
 
@@ -23,7 +23,7 @@
 
 `bcftools annotate {{[-a|--annotations]}} {{path/to/annotations.tsv.gz}} {{[-c|--columns]}} CHROM,POS,REF,ALT,INFO/AF {{path/to/input.vcf.gz}}`
 
-- Output variant [i]nter[sec]tion between VCF files using 4 threads:
+- Output variant inter[sec]tion between VCF files using 4 threads:
 
 `bcftools isec {{path/to/a.vcf.gz path/to/b.vcf.gz ...}} --threads 4 {{[-o|--output]}} {{path/to/intersection.vcf}}`
 

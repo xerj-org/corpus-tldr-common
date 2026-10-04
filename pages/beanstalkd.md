@@ -7,7 +7,7 @@
 
 `beanstalkd`
 
-- [l]isten on a specific [p]ort and address:
+- listen on a specific port and address:
 
 `beanstalkd -l {{ip_address}} -p {{port_number}}`
 

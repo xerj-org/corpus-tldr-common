@@ -8,22 +8,22 @@
 
 `git magic`
 
-- [a]dd untracked files and commit changes with a generated message:
+- add untracked files and commit changes with a generated message:
 
 `git magic -a`
 
-- Commit changes with a custom [m]essage:
+- Commit changes with a custom message:
 
 `git magic -m "{{custom_commit_message}}"`
 
-- [e]dit the commit [m]essage before committing:
+- edit the commit message before committing:
 
 `git magic -em "{{custom_commit_message}}"`
 
-- Commit changes and [p]ush to remote:
+- Commit changes and push to remote:
 
 `git magic -p`
 
-- Commit changes with a [f]orce [p]ush to remote:
+- Commit changes with a force push to remote:
 
 `git magic -fp`

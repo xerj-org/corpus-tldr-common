@@ -11,10 +11,10 @@
 
 `echo "{{password}}" | argon2 "{{salt_text}}" -{{d|i|id}}`
 
-- Display the output [e]ncoded hash without additional information:
+- Display the output encoded hash without additional information:
 
 `echo "{{password}}" | argon2 "{{salt_text}}" -e`
 
-- Calculate a hash with given iteration [t]imes, [m]emory usage, and [p]arallelism parameters:
+- Calculate a hash with given iteration times, memory usage, and parallelism parameters:
 
 `echo "{{password}}" | argon2 "{{salt_text}}" -t {{5}} -m {{20}} -p {{7}}`

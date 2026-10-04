@@ -11,7 +11,7 @@
 
 `readarray < {{path/to/file.txt}} {{array_name}}`
 
-- Remove [t]railing delimiters (newline by default):
+- Remove trailing delimiters (newline by default):
 
 `readarray < {{path/to/file.txt}} -t {{array_name}}`
 
@@ -19,11 +19,11 @@
 
 `readarray < {{path/to/file.txt}} -n {{n}} {{array_name}}`
 
-- [s]kip the first `n` lines:
+- skip the first `n` lines:
 
 `readarray < {{path/to/file.txt}} -s {{n}} {{array_name}}`
 
-- Define a custom [d]elimiter:
+- Define a custom delimiter:
 
 `readarray < {{path/to/file.txt}} -d {{delimiter}} {{array_name}}`
 
